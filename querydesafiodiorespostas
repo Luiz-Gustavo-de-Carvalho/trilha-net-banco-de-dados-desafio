@@ -1,0 +1,60 @@
+  ----1
+--SELECT nome,
+--ano
+--FROM filmes 
+
+----2
+--SELECT *
+--FROM filmes 
+--ORDER BY ano asc;
+
+----3
+--SELECT *
+--from filmes 
+--WHERE nome = 'De Volta para o Futuro'
+
+----4
+--SELECT *
+--from filmes 
+--WHERE Ano = 1997
+
+------5
+--SELECT *
+--from filmes 
+--WHERE Ano > 2000
+
+----6
+--SELECT *
+--from filmes 
+--WHERE duracao > 100 AND Duracao < 150
+--ORDER BY Duracao ASC
+
+----7
+--SELECT ano, Duracao
+--from filmes 
+
+--ORDER BY DURACAO DESC
+
+----8
+--SELECT PrimeiroNome,UltimoNome,Genero
+--from Atores 
+--WHERE genero = 'M'
+
+---9
+--SELECT PrimeiroNome,UltimoNome,Genero
+--from Atores 
+--WHERE genero = 'f'
+--ORDER BY PrimeiroNome asc
+
+---10 
+--SELECT nome, genero
+--from Generos,Filmes
+
+--11
+--SELECT top (3) nome, genero
+--from Generos,Filmes
+--where genero = 'Mistério'
+
+--12
+--SELECT distinct nome,PrimeiroNome,UltimoNome,Papel
+--from filmes,Atores,ElencoFilme
